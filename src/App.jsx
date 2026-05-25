@@ -141,7 +141,7 @@ const serviceDetails = {
     ],
     colorTheme: "indigo"
   },
-  photogrammetry: {
+  'digital-photogrammetry': {
     headline: "High-Resolution Aerial Topography and Digital Photogrammetry",
     detailedIntro: "We are committed to delivering highly accurate aerial mapping solutions to address the extensive surveying challenges of large-scale, complex topographies. With a multidisciplinary team of photogrammetry experts, geospatial analysts, and a wealth of experience in remote sensing technologies, we offer a comprehensive range of 3D modeling and orthomapping services. These solutions are uniquely tailored to meet the exacting spatial needs of urban planners and civil engineers, promoting data-driven planning and rapid regional assessment.",
     disciplines: [
