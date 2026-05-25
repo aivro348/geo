@@ -518,27 +518,26 @@ function Home() {
           >
             {services.map((service, index) => (
               <SwiperSlide key={service.id}>
-                <motion.div
-                  className="service-card"
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5 }}
-                >
-                  <div className="service-img-wrapper">
-                    <img src={service.img} alt={service.title} className="service-img" />
-                  </div>
-                  <div className="service-content">
-                    <div className="service-icon">
-                      {service.icon}
+                <Link to={`/services/${service.id}`} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
+                  <motion.div
+                    className="service-card"
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5 }}
+                  >
+                    <div className="service-img-wrapper">
+                      <img src={service.img} alt={service.title} className="service-img" />
                     </div>
-                    <h3 className="service-title">{service.title}</h3>
-                    <p className="service-desc">{service.desc}</p>
-                    <Link to="/services" className="service-link">
-                      Learn more <ArrowRight size={16} />
-                    </Link>
-                  </div>
-                </motion.div>
+                    <div className="service-content">
+                      <div className="service-icon">
+                        {service.icon}
+                      </div>
+                      <h3 className="service-title">{service.title}</h3>
+                      <p className="service-desc">{service.desc}</p>
+                    </div>
+                  </motion.div>
+                </Link>
               </SwiperSlide>
             ))}
           </Swiper>
@@ -938,7 +937,18 @@ function App() {
           <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-active' : ''}`}>
             <li><Link to="/" className={location.pathname === '/' ? 'active' : ''} onClick={() => setIsMobileMenuOpen(false)}>Home</Link></li>
             <li><Link to="/about" className={location.pathname === '/about' ? 'active' : ''} onClick={() => setIsMobileMenuOpen(false)}>About Us</Link></li>
-            <li><Link to="/services" className={location.pathname === '/services' ? 'active' : ''} onClick={() => setIsMobileMenuOpen(false)}>Services</Link></li>
+            <li className="dropdown">
+              <Link to="/services" className={location.pathname === '/services' || location.pathname.startsWith('/services/') ? 'active' : ''} onClick={() => setIsMobileMenuOpen(false)}>Services</Link>
+              <ul className="dropdown-menu">
+                {services.map((s) => (
+                  <li key={s.id}>
+                    <Link to={`/services/${s.id}`} onClick={() => setIsMobileMenuOpen(false)}>
+                      {s.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </li>
             <li><Link to="/gallery" className={location.pathname === '/gallery' ? 'active' : ''} onClick={() => setIsMobileMenuOpen(false)}>Gallery</Link></li>
             <li><Link to="/clients" className={location.pathname === '/clients' ? 'active' : ''} onClick={() => setIsMobileMenuOpen(false)}>Clients</Link></li>
             <li><Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''} onClick={() => setIsMobileMenuOpen(false)}>Contact Us</Link></li>
