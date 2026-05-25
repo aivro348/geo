@@ -933,11 +933,11 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<div style={{ paddingTop: '150px', textAlign: 'center', minHeight: '50vh' }}><h2>About Us</h2><p>Learn more about Geosilicon Technologies.</p></div>} />
-        <Route path="/services" element={<div style={{ paddingTop: '150px', textAlign: 'center', minHeight: '50vh' }}><h2>Our Services</h2><p>Please select a specific service from the home page.</p></div>} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/services/:id" element={<ServiceDetail />} />
-        <Route path="/gallery" element={<div style={{ paddingTop: '150px', textAlign: 'center', minHeight: '50vh' }}><h2>Project Gallery</h2><p>Our recent projects will be updated here.</p></div>} />
-        <Route path="/clients" element={<div style={{ paddingTop: '150px', textAlign: 'center', minHeight: '50vh' }}><h2>Our Clients</h2><p>We work with industry leaders.</p></div>} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/clients" element={<Clients />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
