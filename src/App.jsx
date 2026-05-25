@@ -908,9 +908,14 @@ function App() {
         <div className="nav-container">
           <Link to="/" className="logo">
             <img src="/logo.png" alt="Geosilicon Logo" />
-            <span className="logo-text">
-              <span style={{ color: '#67a218' }}>Geo</span>
-              <span style={{ color: '#013163' }}>silicon</span>
+            <span className="logo-text" style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.1' }}>
+              <span>
+                <span style={{ color: '#67a218' }}>Geo</span>
+                <span style={{ color: '#013163' }}>silicon</span>
+              </span>
+              <span style={{ fontSize: '0.45rem', letterSpacing: '0.08em', color: '#013163', fontWeight: '600', textTransform: 'uppercase', opacity: 0.85 }}>
+                Technologies India Private Limited
+              </span>
             </span>
           </Link>
           <button className="mobile-menu-btn" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
