@@ -79,6 +79,13 @@ const services = [
     desc: 'Custom software development, IT consulting, and enterprise platform engineering to accelerate your digital transformation.',
     img: '/images/software_service.png',
     icon: <Code size={24} />
+  },
+  {
+    id: 'other-services',
+    title: 'Other Services',
+    desc: 'Professional inbound and outbound training for corporate workforce, covering leadership, management, and soft skills.',
+    img: '/images/other_services.png',
+    icon: <Briefcase size={24} />
   }
 ];
 
@@ -115,136 +122,136 @@ const serviceDetails = {
     colorTheme: "blue"
   },
   cad: {
-    headline: "Drafting the Blueprints of Modern Infrastructure with Millimeter-Level CAD Precision",
-    detailedIntro: "We are committed to delivering meticulous digital drafting solutions to address the intricate design and architectural challenges of modern infrastructure. With a multidisciplinary team of drafting experts, structural modelers, and a wealth of experience in CAD engineering, we offer a comprehensive range of architectural and mechanical drafting services. Our outputs are tailored to meet the exacting compliance needs of our clients, promoting structural excellence, reducing on-site errors, and accelerating the construction lifecycle.",
+    headline: "Unparalleled Standards of Flexibility and Service in CAD Operations",
+    detailedIntro: "Geosilicon has vast experience in every aspect of CAD operations offering unparalleled standards of flexibility and service. Geosilicon CAD services include large-scale 2D & 3D CAD drafting, paper to CAD conversion, raster to vector conversion for engineering drawings, architectural and facility drawings contour maps, ground cadastre plans and Utility distribution networks maps for electric, gas, water, sewage and telecom. GSTPL skill sets in CAD services include knowledge in drafting, designing and customizing programs in AutoCAD, Bentley Microstation. Specialising in Co-ordination and drafting services to Building Services (M&E) Contractors, and Scheme drafting services for Architects, Consultants and Electrical Contractors. All of our quality assured services can be accessed in a way that suits you best, including 'Overflow' service, full outsourced service, occasional input on individual projects, 'Emergency' quick response support, and supplementary services such as 3D modeling and visualization.",
     disciplines: [
       {
-        title: "Architectural CAD Drafting",
-        desc: "Converting structural elevations, floor plans, and complex spatial layouts into highly accurate 2D vector plans and coordinated digital formats. Our architectural drafting services strictly comply with global building codes and spatial planning standards, ensuring that every line, layer, and annotation flawlessly translates the architect's vision into an executable blueprint."
+        title: "2D Drafting",
+        desc: "Taking existing record drawings and using traditional and conventional drafting methods, the existing drawings are completely redrawn in CAD. This method should not be confused with raster to vector scanning, both methods have their uses. These drawings are scaled from the original documents and the results are a cleaner, more accurate and usable electronic CAD file."
       },
       {
-        title: "Mechanical & Structural Modeling",
-        desc: "Generating detailed workshop fabrications drafts, intricate structural steel details, massive plant equipment layouts, and complex mechanical piping designs. We bridge the gap between design and manufacturing, providing structural engineers and fabricators with the high-fidelity schematics necessary to ensure absolute precision during physical assembly."
+        title: "Specialty Mapping",
+        desc: "Geosilicon uses the latest 3D CAD software to deliver the highest quality 3D mechanical and electrical coordination and design verification, helping to improve the communication with clients and minimize possible on-site coordination issues. Benefits include improved identification of design clashes, enhanced services coordination, better control of design information for installation, and quick response support on fast track projects."
       },
       {
-        title: "Civil & Utility Landbase Plans",
-        desc: "Mapping extensive municipal site developments, underground pipelines network routes, cross-country highway layouts, and utilities routing corridors. Our civil drafting ensures that all structural clearances and foundational engineering requirements are perfectly accounted for before the first excavator touches the ground."
-      },
-      {
-        title: "Structural Steel Shop Drawings",
-        desc: "High-fidelity detailed layouts engineered specifically for structural steel connections, shop fabrication drawings, and concrete reinforcement schematics. We map out rebar layouts and structural frames with millimeter accuracy, guaranteeing the structural integrity and load-bearing safety of large-scale commercial constructions."
-      },
-      {
-        title: "Legacy Scan to CAD Vectorization",
-        desc: "Resurrecting historical and legacy engineering data by converting old hand-drawn blue sheets, fading architectural sketches, and raster PDFs into highly structured, multi-layered DWG/DXF drawings. Our vectorization process guarantees perfect scale calibration and geometric fidelity, modernizing your engineering archives."
+        title: "3D Modeling",
+        desc: "Several types of 3D modeling are available in AutoCAD, each offering a different set of capabilities. Wireframe modeling is useful for initial design iterations and as reference geometry. Solid modeling is efficient to use, combining primitives and extruded profiles with mass properties. Surface modeling offers fine control over curved surfaces for precise manipulation. Mesh modeling provides freeform sculpting, creasing, and smoothing capabilities."
       }
     ],
     colorTheme: "indigo"
   },
   'digital-photogrammetry': {
-    headline: "High-Resolution Aerial Topography and Digital Photogrammetry",
-    detailedIntro: "We are committed to delivering highly accurate aerial mapping solutions to address the extensive surveying challenges of large-scale, complex topographies. With a multidisciplinary team of photogrammetry experts, geospatial analysts, and a wealth of experience in remote sensing technologies, we offer a comprehensive range of 3D modeling and orthomapping services. These solutions are uniquely tailored to meet the exacting spatial needs of urban planners and civil engineers, promoting data-driven planning and rapid regional assessment.",
+    headline: "Advanced Digital Photogrammetric Solutions",
+    detailedIntro: "Geosilicon has provided Digital photogrammetric solutions with a technically skilled team across India. A lot of changes have occurred since this time and we have been a key driver of new technology. Our derived products go through a barrage of quality control procedures designed to ensure a good product. All Digital photogrammetry services are performed using the most advanced softcopy workstations operating the latest proven software tools.",
     disciplines: [
       {
-        title: "Digital Terrain Models (DTM) & DEMs",
-        desc: "Extracting highly accurate bare-earth elevation data and digital surface models using high-resolution stereo satellite imagery and advanced aerial drone photography. These core elevation models serve as the vital baseline for complex hydrological modeling, flood risk assessment, and massive earthwork volume calculations."
+        title: "Mosaicking and Tile Generation",
+        desc: "Orthorectification removes the distortion within an image caused by terrain relief and the camera. Geosilicon offers various options of terrain datasets for orthorectification, including GE-1 DTM, ALOS PRISM DTM, STER DTM, SRTM, and Customer provided DTM, providing options for seamless mosaicking of large datasets for a visually appealing image."
       },
       {
-        title: "High-Resolution Orthorectification",
-        desc: "Generating seamless, color-balanced, and perfectly scaled orthophoto mosaics that surgically correct terrain displacement and camera tilt. We provide flawlessly flat and measurable photographic maps that serve as the ultimate visual baseline for urban planners, agricultural monitoring, and environmental tracking."
+        title: "Aerial Triangulation (AT)",
+        desc: "Aerial Triangulation in Photogrammetry is the method of determining and calculating 3-dimensional object coordinates by photogrammetric means, by using photographs exposed from different positions, covering the same object."
       },
       {
-        title: "Planimetric Feature Extraction",
-        desc: "Executing rigorous heads-up 3D digitizing of buildings, road edges, complex water bodies, and vegetation boundaries. We translate raw aerial pixels into highly accurate, attributed vector maps used globally in smart city development, emergency routing, and municipal property taxation registries."
+        title: "Digital Elevation Models (DEM)",
+        desc: "A digital elevation model is a regularly-spaced bare-earth raster grid referenced to a common vertical datum. When you filter out non-ground points such as bridges and roads, you are left with a smooth digital elevation model."
       },
       {
-        title: "UAV / Drone Data Processing",
-        desc: "Transforming massive, unwieldy datasets of overlapping drone images into highly actionable deliverables. We generate dense point clouds, textured 3D meshes, and rapid volumetric calculations, empowering mining operations, quarrying logistics, and construction site managers with near real-time topographical intelligence."
+        title: "Digital Surface Models (DSM)",
+        desc: "DSM measures the height values of the first surface on the ground. This includes terrain features, buildings, vegetation and power lines etc. DSM therefore provides a topographic model of the earth's surface."
       },
       {
-        title: "Volumetric Analysis & Contour Generation",
-        desc: "Creating precise, highly detailed topographic contours and conducting rigorous stockpile volume measurements. Our analytical outputs are essential for excavation sites, land reclamation projects, and extensive earthwork planning, ensuring that contractors have pinpoint accuracy regarding material movement."
+        title: "Digital Terrain Models (DTM)",
+        desc: "Digital Terrain Modelling (DTM) is the collection of mass points of elevations and 3D breaklines at each change of terrain using Summit Evolution softcopy workstations."
+      },
+      {
+        title: "Planimetric Mapping",
+        desc: "Planimetric maps develops natural features with their exact coordinate locations. These features are comprised of vegetation, trails, fences, utility poles, drainage systems, driveways, road boundaries and curbs."
+      },
+      {
+        title: "Topographic Mapping",
+        desc: "Topographic maps are detailed, accurate graphic representations of features that appear on the Earth's surface. These features include Cultural, Hydrography, Relief, and Vegetation."
+      },
+      {
+        title: "Contour Generation",
+        desc: "Contours are commonly in vector formats (e.g., shape file, dxf) and derived from a reconstructed TIN of DEM. Contours are among the most commonly used representations for elevations."
+      },
+      {
+        title: "3-D Feature Extraction & Elevations",
+        desc: "We provide accurate digital planimetric feature extraction for cartography mapping and 3D topo mapping in industry accepted standard formats."
+      },
+      {
+        title: "Change Detection",
+        desc: "Timely and accurate change detection of Earth's surface features is extremely important for understanding relationships and interactions between human and natural phenomena in order to promote better decision making."
       }
     ],
     colorTheme: "purple"
   },
   lidar: {
-    headline: "Advanced LiDAR Point Cloud Classification and 3D Vectorization",
-    detailedIntro: "We are committed to delivering exceptionally dense spatial modeling solutions to address the complex scanning challenges of modern physical asset management. With a multidisciplinary team of LiDAR classification experts and a wealth of experience in laser scanning, we offer a comprehensive range of point cloud processing services. Our workflows are custom-tailored to meet the high-stakes needs of infrastructure developers, promoting absolute structural safety and unparalleled geometric accuracy.",
+    headline: "Turn-key LiDAR Image Processing Services",
+    detailedIntro: "LiDAR is a remote sensing technology that stands for Light Detection And Ranging. Lidar technology measures distance by illuminating a target with a laser and analyzing the reflected light. It functions similar to the Sonar technology used by fish to detect objects in the water and which humans use in boats to find objects or depth in water. Airplanes and helicopters are the most commonly used platforms for acquiring LiDAR data over a large area. Geosilicon provides turn-key LiDAR image Processing services.",
     disciplines: [
       {
-        title: "Mobile LiDAR Scanning (MLS) Processing",
-        desc: "Extracting incredibly high-detail corridor mapping assets from vehicle-mounted laser scanners. We digitize streetlights, traffic signs, road paint lines, curb edges, and overhead clearances, building the foundational 3D vector databases required for autonomous vehicle navigation and next-generation highway planning."
+        title: "Watershed delineation using LiDAR data processing techniques",
+        desc: "LiDAR is a remote sensing technology that stands for Light Detection And Ranging. Lidar technology measures distance by illuminating a target with a laser and analyzing the reflected light. It functions similar to the Sonar technology used by fish to detect objects in the water and which humans use in boats to find objects or depth in water. Airplanes and helicopters are the most commonly used platforms for acquiring LiDAR data over a large area. Geosilicon provides turn-key LiDAR image Processing services."
       },
       {
-        title: "Airborne LiDAR (ALS) Classification",
-        desc: "Deploying automated algorithms and rigorous manual classification techniques to categorize millions of airborne laser returns. We generate highly accurate bare-earth ground models by meticulously separating dense vegetation canopy, structural buildings, and water bodies across massive, rugged rural and urban landscapes."
+        title: "LiDAR data processing of forestry area",
+        desc: "LiDAR is a remote sensing technology that stands for Light Detection And Ranging. Lidar technology measures distance by illuminating a target with a laser and analyzing the reflected light. It functions similar to the Sonar technology used by fish to detect objects in the water and which humans use in boats to find objects or depth in water. Airplanes and helicopters are the most commonly used platforms for acquiring LiDAR data over a large area. Geosilicon provides turn-key LiDAR image Processing services."
       },
       {
-        title: "Terrestrial Laser Scanning (TLS)",
-        desc: "Processing incredibly dense, millimeter-accurate static terrestrial scans designed for complex as-built modeling. Our TLS workflows are critical for the reverse engineering of intricate industrial plants, the digital preservation of heritage architecture, and the precise retrofitting of hyper-dense mechanical and utility rooms."
-      },
-      {
-        title: "Powerline Corridor Mapping",
-        desc: "Detecting ultra-thin transmission wires and modeling their thermal sag under various environmental conditions. We map utility poles, guy wires, and perform rigorous vegetation encroachment clearance analysis, equipping power utilities with the precise data needed to prevent catastrophic wildfire hazards and grid failures."
-      },
-      {
-        title: "3D City Modeling & Digital Twins",
-        desc: "Generating highly accurate, semantic Level of Detail (LOD) 3D building models and immersive urban meshes. These rich digital twins serve as the backbone for smart city planning, 5G signal line-of-sight analysis, and comprehensive municipal solar potential assessments."
+        title: "LiDAR data processing of agricultural features",
+        desc: "LiDAR is a remote sensing technology that stands for Light Detection And Ranging. Lidar technology measures distance by illuminating a target with a laser and analyzing the reflected light. It functions similar to the Sonar technology used by fish to detect objects in the water and which humans use in boats to find objects or depth in water. Airplanes and helicopters are the most commonly used platforms for acquiring LiDAR data over a large area. Geosilicon provides turn-key LiDAR image Processing services."
       }
     ],
     colorTheme: "rose"
   },
   bim: {
-    headline: "Intelligent Building Information Modeling (BIM) for Next-Gen Construction",
-    detailedIntro: "We are committed to delivering comprehensive building modeling solutions to address the multi-dimensional construction and coordination challenges of our time. With a multidisciplinary team of BIM experts, architectural engineers, and a wealth of experience in virtual design and construction (VDC), we offer a comprehensive range of digital twin services. Our solutions are tailored to meet the collaborative needs of modern contractors, promoting operational efficiency and eliminating costly on-site clashes.",
+    headline: "Taking your drawings to the next level",
+    detailedIntro: "The future of CAD drawings and their involvement in the construction process is changing! 2D drawings will always have a valued and useful position in the construction process, but anyone who is serious in providing quality information to their clients will be looking at designs created using Building Information Modelling (BIM) techniques. The traditional building design was largely reliant upon two-dimensional drawings (plans, elevations, sections, etc.). Building information modeling extends this beyond 3-D, augmenting the three primary spatial dimensions with time as the fourth dimension and cost as the fifth. BIM, therefore, covers more than just geometry. It also covers spatial relationships, light analysis, geographic information, and quantities and properties of building components. We are experts in generating structure BIM models using Revit platform. With our expert Revit technicians and structure detailers we are competent enough to develop models for Steel Structures, Wood Structures and Concrete Structures. Also, we are experts in creating families for structure detailing like joists, Anchor bolts, trusses etc.",
     disciplines: [
       {
-        title: "Architectural & Structural BIM",
-        desc: "Developing highly parametric, data-rich 3D models of complex building exteriors and load-bearing structures. Our models are embedded with precise material schedules, quantities, and thermal properties, serving as an infallible foundation for highly accurate cost estimation and breathtaking design visualization."
+        title: "3D Architectural",
+        desc: "We are experts in generating Architectural BIM models using Revit platform. With our expert Revit technicians, all type of architectural model creating. Also, we are experts in creating families for the Architectural component on a door, windows, etc."
       },
       {
-        title: "MEP / FP Systems Coordination",
-        desc: "Modeling intensely complex Mechanical, Electrical, Plumbing, and Fire Protection systems within the central building framework. We ensure that every duct, pipe, and conduit is seamlessly integrated into the structural model before physical construction begins, bridging the gap between engineering theory and practical installation."
+        title: "3D MEP Service",
+        desc: "We provide an assortment of Mechanical, Electrical and Plumbing Engineering services. Competency with software such as AutoCAD, CADD, Revit MEP allows us to offer a range of quality MEP BIM services."
       },
       {
-        title: "Clash Detection & Resolution",
-        desc: "Performing rigorous spatial interference checks using advanced platforms like Navisworks to detect and resolve geometric clashes. By identifying conflicts between structural beams, HVAC ducts, and plumbing pipes in the digital realm, we completely eliminate expensive, schedule-destroying on-site rework."
+        title: "Clashes Detection",
+        desc: "A lot of time, money and resources are spent in the designing state of art buildings. However, imagine the amount of losses that may incur because a lot of unaccounted clashes and collisions go unidentified during the design phase and are detected only when the project goes on-site."
       },
       {
-        title: "Scan-to-BIM (As-Built Modeling)",
-        desc: "Converting raw, unorganized point cloud data from laser scans of existing facilities into highly intelligent, fully-attributed Revit BIM models. This process is absolutely essential for the accurate renovation, retrofitting, and long-term digital facility management of aging or historical infrastructure."
+        title: "Extraction for Scheduling",
+        desc: "We are experts in generating Scheduling in BIM models using Revit platform. All the elements are prepared using category wise schedule."
       },
       {
-        title: "4D Construction Sequencing & 5D Costing",
-        desc: "Taking BIM beyond spatial geometry by linking the 3D building models with precise project schedules (4D) to dynamically simulate construction phases. Furthermore, we integrate granular cost data (5D) to provide stakeholders with real-time budgetary tracking, automated material procurement, and precise cash-flow forecasting."
+        title: "Walkthrough and Rendering",
+        desc: "Walkthrough and Rendering we are using 3DX MAX platform."
       }
     ],
     colorTheme: "orange"
   },
   topo: {
-    headline: "High-Precision Topographical Land Surveying for Infrastructure Foundations",
-    detailedIntro: "We are committed to delivering rigorous ground measurement solutions to address the foundational layout and cartographic challenges of our time. With a multidisciplinary team of surveying experts, geomatic engineers, and a wealth of experience in field operations, we offer a comprehensive range of topographical surveying services. Our approaches are tailored to meet the strict regulatory and engineering needs of our clients, promoting absolute structural reliability from the ground up.",
+    headline: "Professional Surveying Services",
+    detailedIntro: "Whether a project involves surveying hundreds of miles of pipelines, identifying optimum oil well locations, or assisting in the recovery of a city after a natural disaster, our survey team is more than prepared to tackle any challenge. Integrating our newly refined data communications network, high quality instruments, and professional staff, our land survey services can be an efficient solution to every project. If you need a professional land surveyor, then look no further.",
     disciplines: [
       {
-        title: "Detailed Route & Corridor Surveys",
-        desc: "Executing exceptionally high-accuracy alignment and cross-sectional surveys for upcoming mega-infrastructure. Whether mapping multi-lane highways, high-speed railway lines, cross-country oil & gas pipelines, or power transmission corridors, we deliver the definitive ground truth required over the most difficult, unyielding terrains."
+        title: "GPS Survey",
+        desc: "Our GPS survey team is prepared to tackle any challenge. Integrating our newly refined data communications network, high quality instruments, and professional staff, our land survey services provide an efficient solution to every project."
       },
       {
-        title: "Hydrological & Bathymetric Surveys",
-        desc: "Mapping the hidden, complex underwater topography of raging rivers, expansive lakes, and volatile coastal shores. Our bathymetric data provides critical volumetric insights to support the structural design of massive dams, bridge piers, municipal flood control systems, and complex port dredging operations."
+        title: "Total Station Survey",
+        desc: "Geosilicon is a trusted consulting partner for training, survey, data conversion, and GIS implementation. We provide services on RTK GPS / DGPS and Total Station surveys, Utility mapping, Urban mapping, and change detection. Resources provided include GPS, Surveying Equipment, and Data Collection for industries like Energy, Public works, Infrastructure, and Government."
       },
       {
-        title: "Construction Layout & Stakeout",
-        desc: "Translating digital engineering blueprints onto the physical ground with absolute, uncompromising precision. We mark exact global coordinates for foundational building footings, load-bearing structural columns, and extensive infrastructure grading limits, ensuring the physical build matches the digital design flawlessly."
+        title: "DGPS Survey",
+        desc: "A Topographic Survey gathers data about the elevation of points on a piece of land and presents them as contour lines. The purpose is to collect survey data about natural and man-made features and elevations. Geosilicon utilizes the latest surveying technology to produce accurate, consistently reliable topographic surveys, saving you time and money."
       },
       {
-        title: "Volume & Earthwork Calculations",
-        desc: "Conducting highly accurate pre-and-post excavation topographical surveys to calculate exact cut-and-fill volumes. Our precise volumetric reporting is the financial baseline for massive mining operations, municipal landfills, and extensive land reclamation projects, ensuring contractors are compensated accurately for earth moved."
-      },
-      {
-        title: "Cadastral & Boundary Demarcation",
-        desc: "Legally establishing property lines, resolving complex historical land disputes, and generating certified boundary subdivision maps. Our cadastral surveys provide the unquestionable legal foundation required for massive commercial real-estate transactions and sprawling industrial park developments."
+        title: "Drone Survey",
+        desc: "UAVs have opened up a whole new world of surveying, Orthophoto production, 3D modeling and feature extraction. Geosilicon specializes in UAV data processing, delivering high-quality true orthophotos, Contours, DEM, DTM, DSM, and 3D models. Outputs include Ortho Rectification, Data modeling, 2D/3D Feature Extraction, and 3D Video Production."
       }
     ],
     colorTheme: "teal"
@@ -343,31 +350,34 @@ const serviceDetails = {
     colorTheme: "green"
   },
   'software-services': {
-    headline: "Custom Spatial Applications & Enterprise Software Services",
-    detailedIntro: "We are committed to delivering high-performance, bespoke software solutions to address the massive data processing and visualization challenges of our time. With a multidisciplinary team of full-stack software engineers, spatial database architects, and a wealth of experience in enterprise digital transformation, we offer a comprehensive range of custom application services. Our code is engineered to meet the unique operational needs of modern, data-heavy enterprises, promoting rapid digital transformation and unparalleled agility.",
+    headline: "Expert IT Outsourcing & Custom Software Development",
+    detailedIntro: "Geosilicon is a leading company in providing experienced Engineers & Engineering services globally. With a customer-oriented strategy, we are committed to providing clients with expert outsourced manpower for IT services and projects based on short-term, long-term, and part-time assignments.",
     disciplines: [
       {
-        title: "Enterprise Web Map Portals",
-        desc: "Coding exceptionally fast, custom interactive web map frontends utilizing industry standards like Leaflet, Mapbox GL JS, and OpenLayers. We couple these highly responsive React interfaces with secure, high-speed spatial query APIs, empowering corporate teams to visualize, query, and analyze millions of geographically distributed assets in absolute real-time."
+        title: "Recruitment",
+        desc: "Recruitment of the employees as per the clients specifications and assign them to the client’s workplace. We guarantee prompt recruitment and transfer of the most suitable match for each of your vacancies. We also ensure that the professionals are appointed at competitive salaries."
       },
       {
-        title: "Scalable Cloud Architecture",
-        desc: "Setting up entirely serverless spatial architectures, massive parallel raster processing scripts, and highly automated vector tiling pipelines. By deploying these systems in highly secure cloud environments like AWS and Azure, we guarantee maximum scalability, ensuring your geospatial applications perform flawlessly whether handling ten users or ten thousand."
+        title: "Resource Supply",
+        desc: "Geosilicon is leading company in providing experienced Engineers & Engineering services (India & Abroad). With customer oriented strategy Geosilicon is committed to provide its clients with expert outsource manpower for IT services and projects based on short term, long term & part time assignment."
       },
       {
-        title: "Relational Database Engineering",
-        desc: "Architecting, designing, and meticulously tuning massive PostgreSQL and PostGIS database schemas. We build incredibly fast spatial indexes (GIST) and craft the secure middleware required to seamlessly synchronize raw spatial geometries with massive corporate ERP systems like SAP, effectively bridging the gap between mapping and accounting."
-      },
-      {
-        title: "Custom Desktop Automation",
-        desc: "Designing highly intelligent custom automation desktop tools utilizing deep Python scripting, REST APIs, and specialized QGIS or ArcGIS software extensions. We fundamentally eliminate repetitive, error-prone manual processing workflows, freeing up your highly-paid engineering talent to focus on complex analysis rather than tedious data entry."
-      },
-      {
-        title: "Mobile Tracking Applications",
-        desc: "Engineering rugged, fully offline-capable mobile surveying and workforce tracking applications. Equipped with highly robust real-time synchronization systems, these mobile apps ensure seamless, error-free data coordination between remote field surveyors operating in dead zones and project managers sitting in the central headquarters."
+        title: "Software Developing",
+        desc: "Geosilicon can work across a range of technologies and our team has significant experience in web based application development. database-driven systems, mobile application development, mapping and geo-spatial applications. Over the years the range of products and services which we provide has grown, yet the provision of customer software development remains the cornerstone of what we do."
       }
     ],
     colorTheme: "dark"
+  },
+  'other-services': {
+    headline: "Professional Corporate Training & Development",
+    detailedIntro: "Geosilicon services include providing professional inbound and outbound training to the corporate workforce. Our development process encourages the candidates to grow and in order to ace their performance.",
+    disciplines: [
+      {
+        title: "Training & Development",
+        desc: "Geosilicon services includes, providing professional inbound and outbound training to corporate workforce. Our development process encourages the candidates to grow and in order to ace their performance. After training needs are identified, our team recommends the ideal development programs for the employees in the firm. Besides leadership and management development program, we offer customized programs like client relationship management, soft skills, etc."
+      }
+    ],
+    colorTheme: "cyan"
   }
 };
 
@@ -791,10 +801,10 @@ function Contact() {
                 <input type="tel" placeholder="Enter 10-digit mobile number (Phone Number *)" pattern="[0-9]{10}" required />
               </div>
               <div className="form-group">
-                <select 
-                  value={selectedService} 
+                <select
+                  value={selectedService}
                   onChange={(e) => setSelectedService(e.target.value)}
-                  required 
+                  required
                   style={{ width: '100%', padding: '15px', border: '1px solid #e2e8f0', borderRadius: '8px', fontSize: '1rem', color: 'var(--text-light)', backgroundColor: '#fff' }}
                 >
                   <option value="" disabled>Select a service (Service Required *)</option>
@@ -869,8 +879,8 @@ function App() {
       return;
     }
     const q = query.toLowerCase();
-    const results = searchableIndex.filter(item => 
-      item.title.toLowerCase().includes(q) || 
+    const results = searchableIndex.filter(item =>
+      item.title.toLowerCase().includes(q) ||
       item.desc.toLowerCase().includes(q) ||
       item.content.toLowerCase().includes(q)
     );
@@ -944,12 +954,22 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/clients" element={<Clients />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/terms" element={<TermsOfService />} />
+        <Route path="/sitemap" element={<Sitemap />} />
       </Routes>
+
+      {/* WhatsApp Widget */}
+      <a href="https://wa.me/919959664560" className="whatsapp-widget" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="#fff">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+        </svg>
+      </a>
 
       {/* Footer */}
       <footer className="footer">
         <div className="footer-container">
-          
+
           {/* Column 1 */}
           <div className="footer-col">
             <h3 className="footer-title">About Geosilicon</h3>
@@ -962,10 +982,10 @@ function App() {
           <div className="footer-col">
             <h3 className="footer-title">Quick Links</h3>
             <div className="footer-links">
-              <Link to="/about"><ArrowRight size={14} style={{ marginRight: '5px' }}/> About Us</Link>
-              <Link to="/services"><ArrowRight size={14} style={{ marginRight: '5px' }}/> Services</Link>
-              <Link to="/gallery"><ArrowRight size={14} style={{ marginRight: '5px' }}/> Gallery</Link>
-              <Link to="/contact"><ArrowRight size={14} style={{ marginRight: '5px' }}/> Contact Us</Link>
+              <Link to="/about"><ArrowRight size={14} style={{ marginRight: '5px' }} /> About Us</Link>
+              <Link to="/services"><ArrowRight size={14} style={{ marginRight: '5px' }} /> Services</Link>
+              <Link to="/gallery"><ArrowRight size={14} style={{ marginRight: '5px' }} /> Gallery</Link>
+              <Link to="/contact"><ArrowRight size={14} style={{ marginRight: '5px' }} /> Contact Us</Link>
             </div>
           </div>
 
@@ -973,10 +993,10 @@ function App() {
           <div className="footer-col">
             <h3 className="footer-title">Our Services</h3>
             <div className="footer-links">
-              <Link to="/services/gis"><ArrowRight size={14} style={{ marginRight: '5px' }}/> GIS Survey</Link>
-              <Link to="/services/cad"><ArrowRight size={14} style={{ marginRight: '5px' }}/> CAD Drafting</Link>
-              <Link to="/services/lidar"><ArrowRight size={14} style={{ marginRight: '5px' }}/> LiDAR Tech</Link>
-              <Link to="/services/bim"><ArrowRight size={14} style={{ marginRight: '5px' }}/> BIM Solutions</Link>
+              <Link to="/services/gis"><ArrowRight size={14} style={{ marginRight: '5px' }} /> GIS Survey</Link>
+              <Link to="/services/cad"><ArrowRight size={14} style={{ marginRight: '5px' }} /> CAD Drafting</Link>
+              <Link to="/services/lidar"><ArrowRight size={14} style={{ marginRight: '5px' }} /> LiDAR Tech</Link>
+              <Link to="/services/bim"><ArrowRight size={14} style={{ marginRight: '5px' }} /> BIM Solutions</Link>
             </div>
           </div>
 
@@ -984,9 +1004,9 @@ function App() {
           <div className="footer-col">
             <h3 className="footer-title">Contact Info</h3>
             <div className="footer-contact">
-              <p><MapPin size={16} style={{ color: '#f97316', flexShrink: 0 }}/> Hyderabad, Telangana 500074</p>
-              <p><Phone size={16} style={{ color: '#f97316', flexShrink: 0 }}/> +91-9959664560</p>
-              <p><Mail size={16} style={{ color: '#f97316', flexShrink: 0 }}/> info@geosilicon.in</p>
+              <p><MapPin size={16} style={{ color: '#f97316', flexShrink: 0 }} /> Hyderabad, Telangana 500074</p>
+              <p><Phone size={16} style={{ color: '#f97316', flexShrink: 0 }} /> <a href="tel:+919959664560" style={{ color: 'inherit', textDecoration: 'none' }}>+91-9959664560</a></p>
+              <p><Mail size={16} style={{ color: '#f97316', flexShrink: 0 }} /> <a href="mailto:info@geosilicon.in" style={{ color: 'inherit', textDecoration: 'none' }}>info@geosilicon.in</a></p>
             </div>
           </div>
         </div>
@@ -995,9 +1015,9 @@ function App() {
         <div className="footer-bottom">
           <p>© {new Date().getFullYear()} Geosilicon Technologies India Pvt. Ltd. All Rights Reserved.</p>
           <div className="footer-bottom-links">
-            <Link to="/about">Privacy Policy</Link>
-            <Link to="/contact">Terms of Service</Link>
-            <Link to="/contact">Sitemap</Link>
+            <Link to="/privacy">Privacy Policy</Link>
+            <Link to="/terms">Terms of Service</Link>
+            <Link to="/sitemap">Sitemap</Link>
           </div>
           <button
             className="scroll-top-btn"
@@ -1038,7 +1058,7 @@ function ServiceDetail() {
 
   return (
     <div style={{ backgroundColor: '#ffffff', minHeight: '100vh', paddingBottom: '100px', color: '#2d3748' }}>
-      
+
       {/* Edge-to-Edge Hero Image Banner (Slideshow Style) */}
       <section className="hero">
         <div className="slide active">
@@ -1081,7 +1101,7 @@ function ServiceDetail() {
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
                 </div>
-                
+
                 {/* Content */}
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
                   <h4 style={{ fontSize: '1.1rem', fontWeight: '700', color: '#1a202c', margin: 0 }}>
@@ -1102,6 +1122,99 @@ function ServiceDetail() {
             </p>
           </div>
         )}
+      </div>
+    </div>
+  );
+}
+
+function PrivacyPolicy() {
+  return (
+    <div style={{ paddingTop: '120px', paddingBottom: '60px', maxWidth: '800px', margin: '0 auto', paddingLeft: '20px', paddingRight: '20px', minHeight: '60vh' }}>
+      <h1 style={{ fontSize: '2.5rem', color: '#1a202c', marginBottom: '20px' }}>Privacy Policy</h1>
+      <p style={{ color: '#718096', lineHeight: '1.8', marginBottom: '20px' }}>
+        At Geosilicon Technologies India Pvt. Ltd., we respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you.
+      </p>
+      <h2 style={{ fontSize: '1.5rem', color: '#2d3748', marginTop: '30px', marginBottom: '15px' }}>1. Information We Collect</h2>
+      <p style={{ color: '#718096', lineHeight: '1.8', marginBottom: '20px' }}>
+        We may collect, use, store and transfer different kinds of personal data about you, including Identity Data, Contact Data, Technical Data, and Usage Data. We use different methods to collect data from and about you including through direct interactions and automated technologies.
+      </p>
+      <h2 style={{ fontSize: '1.5rem', color: '#2d3748', marginTop: '30px', marginBottom: '15px' }}>2. How We Use Your Data</h2>
+      <p style={{ color: '#718096', lineHeight: '1.8', marginBottom: '20px' }}>
+        We will only use your personal data when the law allows us to. Most commonly, we will use your personal data where we need to perform the contract we are about to enter into or have entered into with you, or where it is necessary for our legitimate interests.
+      </p>
+      <h2 style={{ fontSize: '1.5rem', color: '#2d3748', marginTop: '30px', marginBottom: '15px' }}>3. Data Security</h2>
+      <p style={{ color: '#718096', lineHeight: '1.8', marginBottom: '20px' }}>
+        We have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorized way, altered or disclosed.
+      </p>
+    </div>
+  );
+}
+
+function TermsOfService() {
+  return (
+    <div style={{ paddingTop: '120px', paddingBottom: '60px', maxWidth: '800px', margin: '0 auto', paddingLeft: '20px', paddingRight: '20px', minHeight: '60vh' }}>
+      <h1 style={{ fontSize: '2.5rem', color: '#1a202c', marginBottom: '20px' }}>Terms of Service</h1>
+      <p style={{ color: '#718096', lineHeight: '1.8', marginBottom: '20px' }}>
+        These Terms of Service govern your use of the website and services provided by Geosilicon Technologies India Pvt. Ltd. By accessing or using our website, you agree to be bound by these terms.
+      </p>
+      <h2 style={{ fontSize: '1.5rem', color: '#2d3748', marginTop: '30px', marginBottom: '15px' }}>1. Use of Services</h2>
+      <p style={{ color: '#718096', lineHeight: '1.8', marginBottom: '20px' }}>
+        You agree to use our services only for lawful purposes and in accordance with these terms. You are prohibited from using our site or its content for any unlawful purpose, to solicit others to perform or participate in any unlawful acts, or to violate any international, federal, or state regulations, rules, laws, or local ordinances.
+      </p>
+      <h2 style={{ fontSize: '1.5rem', color: '#2d3748', marginTop: '30px', marginBottom: '15px' }}>2. Intellectual Property Rights</h2>
+      <p style={{ color: '#718096', lineHeight: '1.8', marginBottom: '20px' }}>
+        Unless otherwise indicated, the website is our proprietary property and all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the site are owned or controlled by us.
+      </p>
+      <h2 style={{ fontSize: '1.5rem', color: '#2d3748', marginTop: '30px', marginBottom: '15px' }}>3. Limitation of Liability</h2>
+      <p style={{ color: '#718096', lineHeight: '1.8', marginBottom: '20px' }}>
+        In no event will we or our directors, employees, or agents be liable to you or any third party for any direct, indirect, consequential, exemplary, incidental, special, or punitive damages arising from your use of the site.
+      </p>
+    </div>
+  );
+}
+
+function Sitemap() {
+  return (
+    <div style={{ paddingTop: '120px', paddingBottom: '60px', maxWidth: '800px', margin: '0 auto', paddingLeft: '20px', paddingRight: '20px', minHeight: '60vh' }}>
+      <h1 style={{ fontSize: '2.5rem', color: '#1a202c', marginBottom: '30px', borderBottom: '2px solid #e2e8f0', paddingBottom: '10px' }}>Sitemap</h1>
+      
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '30px' }}>
+        <div>
+          <h2 style={{ fontSize: '1.2rem', color: '#2d3748', marginBottom: '15px' }}>Main Pages</h2>
+          <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
+            <li><Link to="/" style={{ color: '#f97316', textDecoration: 'none' }}>Home</Link></li>
+            <li><Link to="/about" style={{ color: '#f97316', textDecoration: 'none' }}>About Us</Link></li>
+            <li><Link to="/services" style={{ color: '#f97316', textDecoration: 'none' }}>All Services</Link></li>
+            <li><Link to="/gallery" style={{ color: '#f97316', textDecoration: 'none' }}>Gallery</Link></li>
+            <li><Link to="/clients" style={{ color: '#f97316', textDecoration: 'none' }}>Clients</Link></li>
+            <li><Link to="/contact" style={{ color: '#f97316', textDecoration: 'none' }}>Contact Us</Link></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 style={{ fontSize: '1.2rem', color: '#2d3748', marginBottom: '15px' }}>Our Services</h2>
+          <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
+            <li><Link to="/services/gis" style={{ color: '#f97316', textDecoration: 'none' }}>GIS Survey</Link></li>
+            <li><Link to="/services/cad" style={{ color: '#f97316', textDecoration: 'none' }}>CAD Drafting</Link></li>
+            <li><Link to="/services/digital-photogrammetry" style={{ color: '#f97316', textDecoration: 'none' }}>Digital Photogrammetry</Link></li>
+            <li><Link to="/services/lidar" style={{ color: '#f97316', textDecoration: 'none' }}>LiDAR Drone Technologies</Link></li>
+            <li><Link to="/services/bim" style={{ color: '#f97316', textDecoration: 'none' }}>BIM</Link></li>
+            <li><Link to="/services/topo" style={{ color: '#f97316', textDecoration: 'none' }}>Topographic Survey</Link></li>
+            <li><Link to="/services/dgps" style={{ color: '#f97316', textDecoration: 'none' }}>DGPS Survey</Link></li>
+            <li><Link to="/services/netzero" style={{ color: '#f97316', textDecoration: 'none' }}>NetZero Consulting</Link></li>
+            <li><Link to="/services/environmental" style={{ color: '#f97316', textDecoration: 'none' }}>Earth & Environmental</Link></li>
+            <li><Link to="/services/software-services" style={{ color: '#f97316', textDecoration: 'none' }}>Software Services</Link></li>
+            <li><Link to="/services/other-services" style={{ color: '#f97316', textDecoration: 'none' }}>Other Services</Link></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 style={{ fontSize: '1.2rem', color: '#2d3748', marginBottom: '15px' }}>Legal</h2>
+          <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
+            <li><Link to="/privacy" style={{ color: '#f97316', textDecoration: 'none' }}>Privacy Policy</Link></li>
+            <li><Link to="/terms" style={{ color: '#f97316', textDecoration: 'none' }}>Terms of Service</Link></li>
+          </ul>
+        </div>
       </div>
     </div>
   );
