@@ -290,9 +290,6 @@ function Home() {
                       <img src={service.img} alt={service.title} className="service-img" />
                     </div>
                     <div className="service-content">
-                      <div className="service-icon">
-                        {service.icon}
-                      </div>
                       <h3 className="service-title">{service.title}</h3>
                       <p className="service-desc">{service.desc}</p>
                     </div>
@@ -393,9 +390,6 @@ function Services() {
                   <img src={service.img} alt={service.title} className="service-img" />
                 </div>
                 <div className="service-content">
-                  <div className="service-icon">
-                    {service.icon}
-                  </div>
                   <h3 className="service-title">{service.title}</h3>
                   <p className="service-desc">{service.desc}</p>
                 </div>
