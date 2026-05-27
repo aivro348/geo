@@ -965,7 +965,7 @@ img {
     transform: translateY(0);
   }
 
-  .nav-dropdown .dropdown-menu {
+  .dropdown .dropdown-menu {
     position: static;
     box-shadow: none;
     opacity: 1;
@@ -976,7 +976,8 @@ img {
     display: none;
   }
 
-  .nav-dropdown:hover .dropdown-menu {
+  .dropdown:hover .dropdown-menu,
+  .dropdown:active .dropdown-menu {
     display: block;
   }
 
