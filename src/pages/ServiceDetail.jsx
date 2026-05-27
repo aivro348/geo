@@ -17,14 +17,14 @@ export default function ServiceDetail() {
       <section className="hero">
         <div className="slide active">
           <img src={service.img} alt={service.title} />
-
+          <div className="slide-overlay"></div>
           <div className="slide-content">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <h1>{service.title}</h1>
+              <h1 style={{ color: '#ffffff', textShadow: '2px 2px 8px rgba(0,0,0,0.6)' }}>{service.title}</h1>
             </motion.div>
           </div>
         </div>
