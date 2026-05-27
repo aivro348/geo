@@ -175,7 +175,7 @@ function App() {
 
         {/* Footer Bottom */}
         <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} Geosilicon Technologies India Pvt. Ltd. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} Geosilicon Technologies India Pvt. Ltd. <a href="https://www.reddycharan.me" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>All Rights Reserved.</a></p>
           <div className="footer-bottom-links">
             <Link to="/privacy">Privacy Policy</Link>
             <Link to="/terms">Terms of Service</Link>
