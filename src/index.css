@@ -957,12 +957,14 @@ img {
     transform: translateY(-20px);
     gap: 20px;
     z-index: 999;
+    pointer-events: none;
   }
 
   .nav-links.mobile-active {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
+    pointer-events: auto;
   }
 
   .dropdown .dropdown-menu {
