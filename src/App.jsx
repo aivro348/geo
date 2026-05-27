@@ -20,6 +20,7 @@ const Sitemap = lazy(() => import('./pages/Sitemap'));
 function App() {
   const [scrolled, setScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
@@ -63,8 +64,21 @@ function App() {
             <li><Link to="/" className={location.pathname === '/' ? 'active' : ''} onClick={() => setIsMobileMenuOpen(false)}>Home</Link></li>
             <li><Link to="/about" className={location.pathname === '/about' ? 'active' : ''} onClick={() => setIsMobileMenuOpen(false)}>About Us</Link></li>
             <li className="dropdown">
-              <Link to="/services" className={location.pathname === '/services' || location.pathname.startsWith('/services/') ? 'active' : ''} onClick={() => setIsMobileMenuOpen(false)}>Services</Link>
-              <ul className="dropdown-menu">
+              <Link 
+                to="/services" 
+                className={location.pathname === '/services' || location.pathname.startsWith('/services/') ? 'active' : ''} 
+                onClick={(e) => {
+                  if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    setIsMobileServicesOpen(!isMobileServicesOpen);
+                  } else {
+                    setIsMobileMenuOpen(false);
+                  }
+                }}
+              >
+                Services
+              </Link>
+              <ul className="dropdown-menu" style={isMobileServicesOpen && window.innerWidth <= 768 ? { display: 'block' } : {}}>
                 {services.map((s) => (
                   <li key={s.id}>
                     <Link to={`/services/${s.id}`} onClick={() => setIsMobileMenuOpen(false)}>
