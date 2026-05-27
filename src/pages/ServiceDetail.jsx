@@ -17,7 +17,7 @@ export default function ServiceDetail() {
       <section className="hero">
         <div className="slide active">
           <img src={service.img} alt={service.title} />
-          <div className="slide-overlay"></div>
+
           <div className="slide-content">
             <motion.div
               initial={{ opacity: 0, y: 30 }}

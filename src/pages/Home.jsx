@@ -44,7 +44,7 @@ export default function Home() {
               loading={index === 0 ? "eager" : "lazy"} 
               fetchpriority={index === 0 ? "high" : "auto"} 
             />
-            <div className="slide-overlay"></div>
+
             <div className="slide-content">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
